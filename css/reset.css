@@ -1,0 +1,49 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.ad-container {
+    width: 300px; /* Adjusted container width */
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.ad-container img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Maximum image width */
+}
+
+.ad-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.ad-tagline {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.ad-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.ad-button:hover {
+    background-color: #0056b3;
+}
